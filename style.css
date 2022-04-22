@@ -1,0 +1,109 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: center;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: black;
+  color: white; 
+}
+h1 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+
+#startBtn {
+  font-family: 'Shadows Into Light', cursive;
+  margin: 45px;
+  padding: 20px;
+  font-size: 20px;
+  box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,1);
+}
+
+#stopBtn {
+  font-family: 'Shadows Into Light', cursive;
+  margin: 45px;
+  padding: 20px;
+  font-size: 20px;
+  box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,1);
+}
+#button1 {
+    background: pink;
+}
+#button1:active, #button1.lit{
+  background: red;
+}
+
+
+#button2 {
+    background: khaki;
+}
+#button2:active, #button2.lit {
+    background:darkorange;
+}
+
+#button3 {
+    background: lightyellow ;
+}
+#button3:active, #button3.lit {
+    background:yellow;
+}
+
+#button4 {
+    background: lightgreen;
+}
+#button4:active, #button4.lit {
+    background:green;
+}
+
+#button5 {
+    background: skyblue;
+}
+#button5:active, #button5.lit {
+    background:royalblue;
+}
+
+#button6 {
+    background: plum;
+}
+#button6:active, #button6.lit {
+    background:purple;
+}
+
+
+
+
+
+.hidden {
+  display: none;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
