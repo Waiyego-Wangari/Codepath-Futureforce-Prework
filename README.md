@@ -39,7 +39,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](https://reccloud.com/u/3z1bhcg)
+[](https://reccloud.com/u/3z1bhcg)
 ![](https://reccloud.com/u/0ctx2k3)
 ![](https://reccloud.com/u/rozjd73)
 ![](https://reccloud.com/u/audbw1y)
