@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Test Your Memory! 
+    </h1>
+    <p>
+      Rule: Listen to the sound and play it back when the tune stops. Careful, don't break the pattern.
+    </p>
+    <button id = "startBtn" onclick = "startGame()">
+      Start
+    </button>
+    <button id = "stopBtn" class = "hidden" onclick = "stopGame()">
+      Stop
+    </button>
+    
+    <div id = "gameButtonArea">
+      <button id ="button1" onclick="guess(1)" onmousedown="startTone(1), show(1)" onmouseup="stopTone(),hide(1)">
+      <img id = "image1" class = "hidden" src = "https://cdn.glitch.global/236fe10f-b9a4-4b5b-afa8-6d2bd2dd19ef/lion_pic.png?v=1650572484662"/>
+      </button>
+      <button id ="button2" onclick="guess(2)" onmousedown="startTone(2), show(2)" onmouseup="stopTone(), hide(2)">
+      <img id = "image2" class = "hidden" src = "https://cdn.glitch.global/236fe10f-b9a4-4b5b-afa8-6d2bd2dd19ef/zebra.png?v=1650573744139"/>
+      </button>
+      <button id ="button3" onclick="guess(3)" onmousedown="startTone(3),show(3)" onmouseup="stopTone(),hide(3)">
+      <img id = "image3" class = "hidden" src = "https://cdn.glitch.global/236fe10f-b9a4-4b5b-afa8-6d2bd2dd19ef/hippo_pic.png?v=1650574111206"/>
+      </button>
+      <button id ="button4" onclick="guess(4)" onmousedown="startTone(4), show(4)" onmouseup="stopTone(), hide(4)">
+      <img id = "image4" class = "hidden" src = "https://cdn.glitch.global/236fe10f-b9a4-4b5b-afa8-6d2bd2dd19ef/buffalo_pic.png?v=1650574209542"/>
+      </button>
+      <button id ="button5" onclick="guess(5)" onmousedown="startTone(5), show(5)" onmouseup="stopTone(), hide(5)">
+      <img id = "image5" class = "hidden" src = "https://cdn.glitch.global/236fe10f-b9a4-4b5b-afa8-6d2bd2dd19ef/tiger_pic.png?v=1650574731069"/>
+      </button>
+      <button id ="button6" onclick="guess(6)" onmousedown="startTone(6), show(6)" onmouseup="stopTone(), hide(6)">
+      <img id = "image6" class = "hidden" src = "https://cdn.glitch.global/236fe10f-b9a4-4b5b-afa8-6d2bd2dd19ef/elephant_pic.png?v=1650575302701"/>
+      </button>
+    </div>
+  </body>
+</html>
