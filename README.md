@@ -39,12 +39,15 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-[](https://reccloud.com/u/3z1bhcg)
-![](https://reccloud.com/u/0ctx2k3)
-![](https://reccloud.com/u/rozjd73)
-![](https://reccloud.com/u/audbw1y)
+![20220422_120231](https://user-images.githubusercontent.com/77775666/164703062-070f3fd4-351b-466c-9d80-442b6da0ac81.gif) 
+![20220422_114926](https://user-images.githubusercontent.com/77775666/164702931-586c275c-a805-4412-acd6-202c85b3d8b3.gif)
+![20220422_122854](https://user-images.githubusercontent.com/77775666/164703345-9332cdce-d18c-4865-bd18-2ddd9ce2097a.gif)
+![20220422_123931](https://user-images.githubusercontent.com/77775666/164703471-91af6846-5c2d-4a79-b533-867a0588122b.gif)
 
 ## Reflection Questions
+
+
+
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
 [I mainly used Stackoverflow to check the syntax of the code that would implement the extra features]
